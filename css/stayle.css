@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:focus {
+  outline: 2px dotted #fff;
+  outline-offset: 5px;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+  background-color: #131518;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper-container {
+  background-color: #181e27;
+  max-width: 41.2rem;
+  border-radius: 3rem;
+}
+.wrapper-container-inner {
+  padding: 4.8rem 4rem 4.8rem 3.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.image-star {
+  background-color: #262e38;
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.title {
+  font-family: "Overpass";
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  color: #fff;
+  text-align: start;
+}
+.info {
+  font-family: "Overpass";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #969fad;
+  text-align: start;
+  margin-bottom: 2.4rem;
+}
+.group-number {
+  margin-bottom: 3.2rem;
+}
+.group-number-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group-number-item {
+  width: 5.1rem;
+  height: 5.1rem;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.group-number-link {
+  font-family: "Overpass";
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #7c8798;
+}
+.submit-wrapper {
+  width: 34.1rem;
+  height: 4.5rem;
+  background-color: #fc7614;
+  border-radius: 2.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-link {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Overpass";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 2px;
+}
